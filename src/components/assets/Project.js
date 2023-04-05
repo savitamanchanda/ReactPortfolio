@@ -49,7 +49,7 @@ export default function Project() {
 
     return (
         <div>
-            <Portfolio project={projects} />
+            <Portfolio projects={projects} />
         </div>
     )
 }
