@@ -2,7 +2,10 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+  <h3 className="navbar-brand">SAVITA MANCHANDA</h3>
+
+    <ul className="nav nav-tabs me-auto">
       <li className="nav-item">
         <a
           href="#about"
@@ -40,6 +43,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </nav>
   );
 }
 
