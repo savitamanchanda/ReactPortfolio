@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://savitamanchanda.github.io/ReactPortfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
@@ -13,6 +14,7 @@
     "axios": "^1.3.5",
     "bootstrap": "^5.2.3",
     "dotenv": "^16.0.3",
+    "gh-pages": "^5.0.0",
     "gridjs": "^6.0.6",
     "gridjs-react": "^6.0.1",
     "react": "^17.0.2",
@@ -26,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
