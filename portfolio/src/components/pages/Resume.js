@@ -1,15 +1,17 @@
 import React from "react";
 import MyPDF from '../assets/Resume_example.pdf';
+import '../styles/Resume.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Portfolio() {
 
 return (
 <div>
-<div>
-<a href={MyPDF} download>Download Resume</a>
+<div className='resume'>
+<a href={MyPDF} download><FontAwesomeIcon icon="fa-solid fa-download" /> Download Resume</a>
 </div>
 <div>
-<h3>Front End Proficiencies</h3>
+<h3 className="front">Front End Proficiencies</h3>
 <ul className="list-group">
   <li className="list-group-item d-flex justify-content-between align-items-center">
    Javascript
@@ -36,7 +38,7 @@ return (
     <span className="badge badge-primary badge-pill">1</span>
   </li>
 </ul> 
-<h3>Back End Proficiencies</h3>
+<h3 className="back">Back End Proficiencies</h3>
 <ul className="list-group">
   <li className="list-group-item d-flex justify-content-between align-items-center">
    Node.js

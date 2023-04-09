@@ -1,0 +1,26 @@
+.list-group{
+    max-width: 20rem;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h3{
+    text-align: center;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+.back{
+    margin-top: 20px;
+}
+
+.front{
+    margin-top: 50px;
+}
+
+.resume{
+    text-align: center;
+    font-size: 30px;
+}
