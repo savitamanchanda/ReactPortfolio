@@ -9,7 +9,7 @@ export default function About() {
       <img src={me} alt='' className='me'></img>
       <p className='intro'>
       Welcome to my portfolio! My name is Savita, and I am a recent graduate with a Bachelor's degree in Mechanical Engineering. 
-      Since graduation, I have been working full-time in Quality Assurance as a Post-Development Testing Coordinator for a Fintech company.
+      Since graduation, I have been working full-time in Quality Assurance as a Post-Development Testing Coordinator.
       </p>
       <p className='intro'>While I love working in QA, I also have a strong passion for software development. To pursue this interest further, I am currently enrolled in a part-time Full Stack Web Development Bootcamp at Columbia University. 
       Through this program, I am learning various programming languages, including HTML, CSS, JavaScript, and Node.js, and working on real-world projects to sharpen my skills.
