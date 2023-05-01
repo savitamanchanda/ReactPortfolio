@@ -50,7 +50,7 @@ function Portfolio() {
       {
         id: 6,
         title: "Step It Up",
-        img: work,
+        img: step,
         github: "https://github.com/analisegiobbi3/Step_IT_Up",
         deployed: "https://step-it-up.herokuapp.com/",
       },
